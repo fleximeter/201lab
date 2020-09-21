@@ -48,11 +48,17 @@ print(months[user_input - 1])
 counter = 0
 while counter < 12:
     print(months[counter])
+    counter += 1
+
+# This is an infinite loop.
+while True:
+    print("infinite loop")
 
 # There's a more elegant way of writing this, though:
 counter = 0
 while counter < len(months):
     print(months[counter])
+    counter += 1
 
 # The len() function gets us the number of items in a list. But there's an even slicker method:
 for month in months:

@@ -24,6 +24,7 @@ numbers[4] = 4
 counter = 0
 while counter < len(numbers):
     numbers[counter] = 5 + counter
+    counter += 1
 
 # Now our list contains 5, 6, 7, 8, 9
 # Can we do it this way?

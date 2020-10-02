@@ -39,6 +39,3 @@ for i in range(0, len(numbers)):
 
 # This solves our problem and means that we don't have to make the "counter" variable separately.
 # When the for loop is done, the "i" variable disappears.
-
-# DO NOT USE A FOR I LOOP FOR LAB 3! You have not officially been "taught" it.
-# I've introduced it here to prepare you for the idea.

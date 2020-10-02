@@ -13,7 +13,7 @@ numbers = [1, 0, 3, 2, 5]
 # If we want to add a number, we can do this:
 numbers.append(6)
 
-# If we want to remove a number, we remove it by its index:
+# If we want to remove a number, we remove it by its value:
 numbers.remove(2)
 
 # This DID NOT remove the third item from the list. Instead, it searched the list for 2, and removed it.

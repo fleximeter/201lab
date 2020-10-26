@@ -1,0 +1,70 @@
+"""
+File:        design3.txt
+Author:      Jeff Martin
+Date:        11/27/2019
+Section:     33
+Email:       jmartin8@umbc.edu
+Description: A design file for a simplified scoring system for the board
+             game Go.
+"""
+
+# Constants that indicate how the board will be colored for each player,
+# as well as for empty space
+WHITE_PLAYER = "O"
+BLACK_PLAYER = "X"
+EMPTY_SPACE = "+"
+
+def get_board(file_path):
+    """
+    Gets a completed Go game board from a file.
+    :param file_path: The path of the game board
+    :return: A two-dimensional list containing the completed Go game board
+    """
+
+def color_board(board):
+    """
+    Colors a completed Go game board, indicating who owns each space on the
+    board.
+    :param board: A 2D list containing a Go board to color
+    :return: A colored Go board
+    """
+
+def determine_ownership(point, board):
+    """
+    Determines the ownership of a given point on a Go game board.
+    :param point: The point we are finding the owner for
+    :param board: The Go game board
+    :return: A character representing the owner of the point on the board
+    """
+
+def compute_score(player_character, board):
+    """
+    Computes the score of a given player by tallying how many points on the
+    board that player owns.
+    :param player_character: The character assigned to the player whose score
+    we are computing
+    :param board: The completed Go game board, colored to show who owns each
+    point on the board
+    :return: The score of the player
+    """
+
+def print_board(board):
+    """
+    Prints a Go board to the screen.
+    :param board: The board to print
+    :return: Nothing
+    """
+
+if __name__ == "__main__":
+    Ask the user for the file name of the completed Go game, and pass it to
+    the get_board() function. Store the return value from the get_board()
+    function in a variable called board.
+    Display the board to the user by passing the board variable to the
+    print_board() function.
+    Pass the board variable to the color_board() function to color the game
+    board. Store the return value (the colored game board) in a variable
+    called colored_board.
+    Pass the colored_board variable twice to the compute_score() function to
+    determine the score for each player, and store the scores in variables.
+    Use the print_board() function to display the colored game board.
+    Print the score for each player.
